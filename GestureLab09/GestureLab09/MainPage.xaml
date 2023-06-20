@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestureLab09.MainPage" Title="Laboratorio 09 - ALANYA">
+    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="Aquamarine" Spacing="25">
+        <Label Text="Hola Samir Alanya" HorizontalOptions="Center" VerticalOptions="Center"  Padding="20" FontSize="18" TextColor="Black"/>
+        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="50" Padding="25">
+            <Button x:Name="Item1" Text="PanDemo" Padding="25" BorderColor="Cyan" BorderWidth="7" CharacterSpacing="3"></Button>
+            <Button x:Name="Item2" Text="PinchDemo" Padding="25" BorderColor="Cyan" BorderWidth="7" CharacterSpacing="3"></Button>
+            <Button x:Name="Item3" Text="SwipeDemo" Padding="25" BorderColor="Cyan" BorderWidth="7" CharacterSpacing="3"></Button>
+            <Button x:Name="Item4" Text="TapDemo" Padding="25" BorderColor="Cyan" BorderWidth="7" CharacterSpacing="3"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
